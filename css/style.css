@@ -1,0 +1,2618 @@
+/*
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,300,600,700);
+*/
+/*@import url('https://fonts.googleapis.com/css?family=Cairo|Mirza&display=swap');*/
+
+
+@font-face {
+    font-family: 'Mirza', cursive;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font: 300 14px/1.8 'Mirza', cursive;
+    color: rgba(0, 0, 0, 0.01);
+    /*background-color: rgb(97, 35, 110);*/
+    background-color: rgb(255,222,205);
+}
+
+#body-terms{
+    background-color: white;
+}
+
+#body-account
+{
+    background-color: white;
+}
+
+
+#units span
+{
+    font-size: 16px;
+}
+
+.carousel-control .glyphicon{
+    position: absolute !important;
+}
+
+.glyphicon {
+    position: unset !important;
+}
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: unset;
+}
+
+html,
+body,
+.row {
+    max-width: 100% !important;
+   /* overflow-x: hidden !important;*/
+}
+
+.row {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+hr {
+    border-color: rgb(156,106,146);
+    width: 100%;
+    border-width: thin;
+}
+
+.card > hr {
+    border-color: rgb(255,244,211);
+    width: 100%;
+    border-width: thin;
+}
+
+.page{
+ background-color: white;
+}
+
+
+
+#fake-nav
+{
+    position: absolute;
+    top: 0px;
+    height: 50px;
+    width: 100%;
+    background-color: hsla(320, 36%, 47%, 1);
+}
+
+.faq_guestion_header{
+    float: right;
+}
+
+
+
+.faq_btn {
+    width: 100%;
+    text-align: left;
+    color: rgb(148,95,137);
+    background-color: white;
+   /* font-size: 20px;*/
+}
+
+.faq_btn:focus {
+    color: rgb(148,95,137);
+}
+
+.faq_btn:hover {
+    cursor: pointer;
+    color: rgb(148,95,137);
+}
+
+.glyphicon-chevron-down {
+    content: "\e114";
+    transition: all 0.5s;
+}
+
+button[aria-expanded="true"] > .glyphicon-chevron-down {
+    transform: rotate(180deg);
+}
+
+a:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.1);
+    border-width: medium;
+}
+
+.navbar-nav > li > a:hover {
+    background-color: transparent;
+    color: yellow !important;
+}
+
+ul > li > .active a {
+    color: yellow !important;
+}
+
+.ribbon {
+    margin-top: 4%;
+    padding: 5px 10px;
+    background-color: white;
+    color: #f01c59;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-align: right;
+}
+
+.home {
+    display: block;
+    margin: auto;
+    max-width: 1080px;
+}
+
+
+.winners_descr {
+    font-size: 25px;
+    color: rgb(148,95,137);
+    text-align: center;
+}
+
+/* Modal */
+
+
+.modal-dialog {
+    margin-top: 200px;
+}
+
+.modal-header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url('../images/modal/modal_en.html');
+    height: 30em;
+    width: 55em;
+}
+
+.modal-header_ar {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: url('../images/modal/modal_ar.html');
+    height: 30em;
+    width: 55em;
+}
+
+.modal-content {
+    background: none;
+    text-align: -webkit-center;
+}
+
+.modal-header .close {
+    /*color: #fff;*/
+    opacity: 0.5;
+}
+
+.modal-header p {
+    /* color: #fff;*/
+    font-size: 1.5em;
+    font-weight: 700;
+    line-height: 1.5em;
+    margin-top: 190px;
+}
+
+.modal-body p,
+.modal-body li {
+    font-size: 1.1em;
+    /* font-weight: 600;
+    text-align: center; */
+}
+
+p.modal-disclaimer,
+.modal-disclaimer a {
+    font-size: 0.9em;
+    color: #000;
+}
+
+.modal-disclaimer a {
+    text-decoration: underline;
+}
+
+.modal-body span.default-color {
+    color: #E30613;
+}
+
+.modal-backdrop.in {
+    opacity: 0.8 !important;
+}
+
+.modal-dialog {
+    width: 862px;
+    height: 500px;
+}
+
+.modal-body p {
+    font-size: 1.5em;
+    font-weight: 500;
+    text-align: center;
+}
+
+#subscribeModal .modal-header {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+#subscribeModal .modal-body {
+    background-color: #EDECE5;
+}
+
+#subscribeModal .modal-body p.default-color {
+    color: #EDECE5;
+}
+
+
+/* ---------------------------------------------- /*
+ * Transition elements
+/* ---------------------------------------------- */
+
+
+.navbar a,
+.form-control {
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    -ms-transition: all 0.4s ease-in-out 0s;
+    -o-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+a,
+.btn {
+    -webkit-transition: all 0.125s ease-in-out 0s;
+    -moz-transition: all 0.125s ease-in-out 0s;
+    -ms-transition: all 0.125s ease-in-out 0s;
+    -o-transition: all 0.125s ease-in-out 0s;
+    transition: all 0.125s ease-in-out 0s;
+}
+
+/* ---------------------------------------------- /*
+ * Reset box-shadow
+/* ---------------------------------------------- */
+
+.btn,
+.form-control,
+.form-control:hover,
+.form-control:focus,
+.navbar-custom .dropdown-menu {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+/* ---------------------------------------------- /*
+ * Typography
+/* ---------------------------------------------- */
+
+h1, h2, h3, h4, h5, h6 {
+    font: 700 40px/1.2 "Cairo", sans-serif;
+    /*letter-spacing: 2px;*/
+    margin: 5px 0 5px;
+    color: #222;
+}
+
+.text-number {
+    font: 300 14px/1.8 "Arial", sans-serif;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0 0 30px;
+}
+
+h3 {
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin: 0 0 5px;
+}
+
+h4 {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+h5 {
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+h6 {
+    font-size: 11px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+/* ---------------------------------------------- /*
+ * Reset border-radius
+/* ---------------------------------------------- */
+
+.btn,
+.iconbox,
+.progress,
+#filter li,
+.scroll-up a {
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/* ---------------------------------------------- /*
+ * General Styles
+/* ---------------------------------------------- */
+
+.pfblock {
+    padding: 120px 0 100px;
+}
+
+.pfblock-gray {
+    background: #f5f5f5;
+}
+
+.pfblock-image {
+    padding: 0;
+}
+
+.pfblock-header {
+    text-align: center;
+    margin: 0 0 60px;
+}
+
+.pfblock-header-left {
+    text-align: left;
+}
+
+.pfblock-header-left .pfblock-line {
+    width: inherit;
+    margin: 30px 0;
+}
+
+.pfblock-title {
+    font-weight: 800;
+}
+
+
+.logo-home {
+    padding-bottom: 10px;
+}
+
+.logo-home img {
+    max-height: 200px;
+    -webkit-filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.1));
+    filter: drop-shadow(2px 2px 2px rgba(0, 0, 0, 0.1));
+}
+
+.page-separator {
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    }
+
+
+.custom-separator {
+    /*min-height of navbar is 50px*/
+    height: 50px;
+    /*width: 55px;*/
+    border-right: 1px solid white;
+    border-bottom: 0px;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid {
+    font-family: 'Cairo', sans-serif;
+    padding-left: 0;
+    padding-right: 0;
+    position: absolute;
+    height: 100%;
+    top: 0;
+}
+
+.container{
+    width: auto !important;
+}
+
+.homepage-prizes {
+    background: url('../images/home/prize_background.jpg');
+    /*background-repeat: no-repeat; !* Do not repeat the image *!
+    background-size: cover;
+    background-position-x: center;*/
+}
+
+.homepage-text {
+    font-size: 32px;
+    color: white;
+    margin-top: 80px;
+    text-align: center;
+    font-family: initial;
+}
+
+.homepage-prizes-text {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+}
+
+.prizes-image {
+    vartical-align: middle;
+    width: 70%;
+    height: 70%;
+    margin-top: 5px;
+    padding-top: 20px;
+}
+
+.prizes-text {
+    color: white;
+    padding-bottom: auto;
+    font-size: 1.6em !important;
+    /*margin-top:50%;*/
+}
+
+.prizes-row {
+    height: 30%;
+}
+
+.fixed-margin-top {
+    margin-top: 40px;
+}
+
+.play-and-win-image {
+    margin: 10px;
+    bottom: 0;
+}
+
+.pre-wrapper {
+    height: 90%;
+}
+
+.wrapper {
+    /*	width: 60%;
+        max-width: 1200px;*/
+    height: 90%;
+    margin: auto;
+    /*position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    font-weight: bold;
+    color: white;*/
+}
+
+.inner-prizes {
+    width: 25%;
+    max-width: 800px;
+    height: 90%;
+    margin: auto;
+}
+
+.inner-prizes p {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+    font-family: initial;
+    font-size: large;
+}
+
+
+/* ---------------------------------------------- /*
+ * Home
+/* ---------------------------------------------- */
+
+#home {
+
+    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url('../images/VWC%20background%20190x1080_upd.html');
+    background-color: rgba(0, 0, 0, 0.01);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    min-height: 2000px;
+}
+
+.home-overlay {
+    background-color: rgba(0, 0, 0, 0.01);
+    background-image: url("../images/game/bg2.html");
+    background-repeat: repeat;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+}
+
+.intro {
+    position: absolute;
+    width: 100%;
+    top: 5%;
+    /*left: 0;*/
+    text-align: center;
+    /*	-webkit-transform: translate(0%, -50%);
+           -moz-transform: translate(0%, -50%);
+            -ms-transform: translate(0%, -50%);
+             -o-transform: translate(0%, -50%);
+                transform: translate(0%, -50%);*/
+    padding: 0;
+}
+
+
+
+/* ---------------------------------------------- /*
+ * Homepage Ladies Like
+/* ---------------------------------------------- */
+
+.homepage_top {
+    color: black;
+    /*height: 580px;*/
+    font-size: 32px;
+    position: unset !important;
+    background: url(../images/home/header900.jpg);
+   /* background-color: rgb(255,222,205);*/
+    overflow-y: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homepage_top img.main_prizes{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.homepage_top img.main_logo{
+    width: 100%;
+    display: block;
+    margin: auto;
+    padding: 5%;
+    max-width: 400px;
+    margin-top: 40%;
+}
+
+
+.homepage_top_left_div {
+    /*background: url(../../images/07_updatedheader.jpg);*/
+    /*height: 100%;*/
+    background-position-x: 20%;
+    position : inherit !important;
+}
+
+.homepage_top_left_div_alt {
+    display: none;
+}
+
+
+.homepage_top_right_div {
+   /* height: 100%;*/
+    /*background-color: rgb(255,222,205);*/
+}
+
+.homepage_top_text {
+    font-size: 16px;
+    color: rgb(120,60,140);
+    font-family: 'Mirza', cursive;
+    text-align: center;
+}
+
+.homepage_top_text p{
+    margin: 0;
+}
+
+.homepage_bottom_text {
+    font-family: 'Mirza', cursive;
+    font-size: 20px;
+    color: rgb(120,60,140);
+    font-family: sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.contact_div {
+    background-color: rgb(228,226,229);
+    bottom: 0px;
+    position: sticky;
+}
+
+.contact_div_gen{
+    background-color: rgb(228,226,229);
+    position: relative;
+}
+
+.contact_div_signup{
+    background-color: rgb(228,226,229);
+    position:  sticky;
+    bottom: 0;
+    width: 100%;
+}
+
+
+.contact_footer {
+    color: rgb(148,95,137);
+   /* height: 150px;*/
+    font-size: 20px;
+    position: relative;
+    text-align: left ;
+    /*background-color: white;*/
+    overflow-y: hidden;
+   /* text-align: center;*/
+    vertical-align: middle;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.contact_footer p {
+    text-align: right;
+}
+
+.contact_footer_img img{
+    width: 10%;
+}
+
+.contact_footer > strong > p {
+    color: rgb(36,37,94);
+    letter-spacing: 5px;
+    font-size: 14px;
+}
+
+.contact_footer_logo img{
+ width: 10%;
+}
+.carousel-indicators {
+    position: relative;
+    margin: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+.carousel-indicators > li {
+    border-color: rgb(117,57,117);
+    background-color: rgb(117,57,117);
+}
+
+.carousel-title{
+    font-family: 'Cairo', sans-serif;
+    font-size: 26px;
+    font-weight: 900;
+}
+
+#calendar .carousel {
+    margin-top: 3%;
+    box-shadow: none !important;
+}
+
+
+.gifts {
+    text-align: center;
+    color: black;
+    height: 500px;
+    font-size: 18px;
+    position: relative;
+    padding: 8%;
+}
+
+.weekdays{
+    padding-top: 3%;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-align: center;
+    color: rgb(156,106,146);
+    font-size: 45px;
+}
+
+
+.intro .description {
+    margin: 10px 0;
+    background-color: rgba(0, 0, 0, 0.01);
+    background-color: rgba(0, 0, 0, 0.01);
+}
+
+.intro .description-text {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.8em;
+    font-style: normal;
+    text-transform: none;
+    /*text-shadow: 3px 3px 5px #000;*/
+    margin-top: 5px;
+    color: #fff;
+    font-weight: 400;
+}
+
+.text-purple {
+    color: rgb(97, 35, 110);
+    font-weight: bold;
+}
+
+.text-white {
+    color: white;
+}
+
+.text-grey {
+    color: rgba(0, 0, 0, 0.38);
+}
+
+.text-gold {
+    font-weight: bold;
+    font-size: 1.8em;
+    color: gold;
+
+
+}
+
+.intro .cta {
+    /*background-color: rgba(255, 255, 255, 0.7);*/
+    margin-top: 20px;
+}
+
+.intro .cta-text {
+    font-weight: 600;
+    color: white;
+    font-size: 2.3em;
+    text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.01);
+    padding: 5px 0;
+}
+
+.intro .cta-disclaimer {
+    font-size: 0.8em;
+    text-align: center;
+    font-style: italic;
+    color: #008BCD;
+}
+
+.btn_join {
+    background: #f01c59;
+    background-image: -webkit-linear-gradient(top, #f01c59);
+    background-image: -moz-linear-gradient(top, #f01c59);
+    background-image: -ms-linear-gradient(top, #f01c59);
+    background-image: -o-linear-gradient(top, #f01c59);
+    background-image: linear-gradient(to bottom, #f01c59);
+    -webkit-border-radius: 28px;
+    -moz-border-radius: 28px;
+    border-radius: 0px;
+    border: 3px solid white;
+    color: #ffffff;
+    font-size: 20px;
+    /* padding: 10px 20px 10px 20px;*/
+    text-decoration: none;
+    font-weight: bold;
+    /*width: 50%;*/
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    height: 60px;
+
+}
+
+.sign_in_input {
+    /*left: 50%;*/
+    text-align: center;
+    /*margin-top: 10%;*/
+    font-size: 20px;
+    color: #87497A;
+    border: none;
+    width: 100%;
+    border-bottom-color: white;
+    height: 50px;
+}
+
+.login_input {
+   /* left: 50%;*/
+    text-align: center;
+    font-size: 20px;
+   /* margin-top: 5%;*/
+    color: #87497A;
+    border: none;
+    width: 100%;
+    border-bottom-color: white;
+    height: 50px;
+}
+
+
+.input-group-addon {
+    padding: 12px 12px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1;
+    color: #555;
+    text-align: center;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    width: 25%;
+    white-space: nowrap;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+
+
+.sign_in_resend{
+    margin-top: 5%;
+}
+
+.sign_in_resend a{
+    color:white;
+    font-size: 16px;
+    text-decoration: underline ;
+}
+
+.sign_in_terms a{
+    color:white;
+    font-size: 16px;
+
+}
+
+
+.input-group{
+    position: inherit !important;
+    padding: 5px;
+    width: 100%;
+    display: inline-flex !important;
+}
+
+.dropdown-menu {
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.signup_right_half{
+    margin-top: 10%;
+    background-color:#87497A !important;
+    padding-bottom: 2%;
+    position: unset;
+    max-width: 480px;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.signup_table{
+    position: static;
+}
+
+/*.signup_table img{
+    width:50%;
+    margin-top: 2%;
+}*/
+
+.success_text{
+    color : white;
+    font-size: 32px;
+}
+
+.success_smalltext{
+    color : white;
+    margin-top: 5%;
+    font-size: 26px;
+}
+
+.btn_subscribe {
+    background-color: rgb(167,113,144);
+    color: white;
+    width: 100%;
+    border: 0;
+    font-size: 24px;
+    border-radius: 110px;
+}
+
+.btn_subscribe span{
+    vertical-align: sub;
+}
+
+.btn_subscribe a{
+    color: white;
+}
+
+
+.welcomemsg{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    font-size: 22px;
+    /*margin-right: 10%;*/
+    color: rgb(156,106,146);
+    overflow-y: hidden;
+}
+
+.welcomecontent {
+    font-family: 'Mirza', cursive;
+    font-size: 16px;
+    color: rgb(156,106,146);
+    overflow-y: hidden;
+}
+
+.sendmsg{
+    text-align: center;
+    /*font-size: 35px;*/
+    font-size: 22px;
+    background-color: rgb(62,60,113);
+    margin-top: 7%;
+    margin-left: 2%;
+    padding: 0% 5%;
+    /*width: 34%;*/
+   /* height: 55%;*/
+    color: white;
+    letter-spacing: 2px;
+}
+
+.sendmsg p {
+    margin-top: 5%;
+}
+
+.prizemsg{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(156,106,146);
+/*    height: 120px;*/
+}
+
+
+.btn_join:hover {
+    opacity: 0.8;
+}
+
+/*-----------------------------------------------*/
+/*Sign Up*/
+/*-----------------------------------------------*/
+
+.signup_page{
+    background: url("../images/sign_up/landing-page-background.jpg");
+    /*background-color:#87497A;*/
+    background-color:white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#signup_page img{
+    margin-top: 2%;
+    width: 55%;
+}
+
+.signup_big_text{
+    color: white;
+    text-align: center;
+    font-size: 52px;
+    font-weight: 900 ;
+}
+
+.signup_subscribe{
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 5%;
+
+}
+
+
+.signup_wrongmsisdn_warning{
+    color:yellow;
+    font-size: 16px;
+    text-align: center;
+}
+
+.signup_wrongmsisdn_warning a{
+    font-size: 30px;
+    color: red;
+}
+
+.signup_terms_warning{
+    color:white;
+    font-size: 16px;
+    text-align: center;
+}
+
+
+#action-message {
+    color: yellow;
+    font-weight: 600;
+}
+
+.back_button{
+    color: yellow;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+/*-----------------------------------------------*/
+/*My Account*/
+/*-----------------------------------------------*/
+
+
+.myaccount_top {
+    background-image: url("../images/my_account/my-account-background.jpg");
+    background-size: cover;
+    margin-bottom: 2%;
+}
+
+
+.header-logo{
+    max-width: 70px !important;
+    float: left;
+    margin-top: -7px;
+}
+
+/*.mobile_navbar{
+    display: block;
+}
+
+.desktop_navbar{
+    display: none !important;
+}*/
+
+.msisdn_tab{
+    background-color: rgb(255, 230, 255);
+    font-size: 15px;
+    color: #101010;
+    text-align: center;
+}
+
+
+.msisdn_tab hr{
+    margin-bottom: 0px !important;
+}
+
+
+.msisdn_tab .glyphicon{
+    padding-right: 5px
+}
+
+.msisdn_tab .msisdn_label{
+width: 100%;
+margin-left: 0;
+padding-left: 0;
+margin-top: 10px;
+}
+
+.msisdn-img{
+border-radius: 50%;
+width: 40%;
+margin-top: 20%;
+/*padding: 1%;*/
+}
+
+.msisdn_info{
+    color: #101010;
+    font-size: 15px;
+    text-align: center;
+    padding: 5%;
+}
+
+.draw_info{
+    background-color: violet;
+    background-size: cover;
+    color: #FFFFFF;
+    font-size: 24px;
+    text-align: center;
+}
+
+.video_list{
+    margin-bottom: 2%;
+    margin-top: 5%;
+    font-size: 18px;
+    color: #101010;
+    text-align: center;
+    min-height: 500px;
+}
+
+.video_list .input-group{
+    width: unset;
+}
+
+.video_list p{
+    font-family: 'Cairo', sans-serif;
+}
+
+.custom-select{
+    font-size: 10px;
+}
+
+.account_video_date{
+  /*  font-size: 10px;*/
+    background-color: #0D3349;
+    color: white
+}
+
+/*.item > img{
+    width: 25%;
+}*/
+
+/*-------------------------------------------------*/
+/*------------------ FAQ-----------------------------*/
+.accordition{
+    margin-top: 5%;
+    color: black;
+}
+
+.card-header{
+    border-bottom: 2px black;
+
+}
+
+.card-body{
+    background-color: rgb(163, 77, 134);
+    color: white;
+    padding: 10px;
+}
+
+/* ---------------------------------------------- /*
+ * Game
+/* ---------------------------------------------- */
+
+#game {
+    background: url(../images/game/bg2.html);
+    background-color: rgba(0, 0, 0, 0.01);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    min-height: 900px;
+
+}
+
+.iconbox {
+    background-color: #ece2e2;
+    /*border-bottom: 1px solid #d4d4d4;*/
+    padding: 40px 20px;
+    margin: 0 0 20px;
+}
+
+.panel-game {
+    margin-top: 1%;
+}
+
+.panel-title > a {
+    color: #fff;
+}
+
+/*.iconbox ul {
+	line-height: 30px;
+}*/
+
+.game-text {
+    font-size: 1.4em;
+}
+
+.game-description {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.prize-announcement {
+    font-weight: 600;
+    color: #008BCD;
+    font-size: 2em;
+}
+
+.disclaimer {
+    font-size: 0.75em;
+    color: #4c4c4c;
+    text-shadow: 1px 1px 4px #fff;
+    text-align: center;
+}
+
+.disclaimer-bottom {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 5px;
+    margin-top: 5%;
+    text-align: center;
+}
+
+
+/* ---------------------------------------------- /*
+ * How to play
+/* ---------------------------------------------- */
+
+#how-to-play {
+    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url('../images/VWC%20background%20190x1080_upd.html');
+    background-color: rgba(0, 0, 0, 0.01);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    min-height: 900px;
+}
+
+.panel-how-to-play {
+    margin-top: 1%;
+}
+
+.fixed-height {
+    height: 60vh;
+    overflow: hidden;
+}
+
+.step {
+    /*padding: 1em;*/
+    margin-bottom: 1em;
+    color: white;
+}
+
+.step-text,
+.tips p {
+    font-size: 0.95em;
+}
+
+.step-text,
+.huge-number {
+    overflow: hidden !important;
+    color: rgb(97, 35, 110);
+}
+
+.tips,
+.prizes {
+    background-color: rgb(97, 35, 110);
+}
+
+.tips {
+    padding: 30% 10%;
+    min-height: 520px;
+}
+
+.tips p,
+.tips p a,
+.prizes p {
+    text-align: justify;
+    color: #fff;
+}
+
+.tips p a {
+    text-decoration: underline;
+}
+
+.tips p {
+    margin-bottom: 20%;
+}
+
+.huge-number {
+    font-size: 6em;
+    /*	margin-top: -6%;*/
+    line-height: 1.2;
+}
+
+
+/* ---------------------------------------------- /*
+ * Prizes
+/* ---------------------------------------------- */
+
+#prizes {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('../images/bg3.html');
+    background-color: rgba(0, 0, 0, 0.01);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    min-height: 900px;
+}
+
+.panel-prizes {
+    margin-top: 2%;
+}
+
+p.prizes-header {
+    color: white;
+    font-size: 1.4em;
+    /*text-shadow: 2px 1px 4px #000;*/
+}
+
+p.prizes-item {
+    color: #008BCD;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+}
+
+.prizes-top {
+    margin-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0;
+    /*background-color: rgba(255, 255, 255, 0.8);*/
+    background-color: rgba(26, 26, 26, 0.8);
+    margin-top: 5%;
+    color: white;
+}
+
+.prizes-bottom {
+    margin-top: 20px;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    background-color: rgba(0, 139, 205, 0.7);
+}
+
+.prizes-bottom-text {
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+}
+
+.img-cash {
+    width: 75%;
+}
+
+.img-smart {
+    margin-top: 5%;
+}
+
+
+/* ---------------------------------------------- /*
+ * FAQ
+/* ---------------------------------------------- */
+
+#faq {
+    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url('../images/VWC%20background%20190x1080_upd.html');
+    background-color: rgba(0, 0, 0, 0.01);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    min-height: 900px;
+}
+
+.panel-faq {
+    margin-top: 1%;
+    overflow-x: hidden !important;
+}
+
+.faq-title {
+    text-align: center;
+    color: #008BCD;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+.panel-default > .panel-heading {
+    background-color: #f21f64;
+    color: rgb(97, 35, 110);
+}
+
+.panel-title a:hover {
+    color: rgb(97, 35, 110);
+    text-decoration: underline;
+}
+
+.accordion-text {
+    padding: 20px;
+    background-color: #EBF0F0;
+    color: #000;
+    font-size: 1em;
+}
+
+.accordion-text a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.scrollbar-faq
+-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+/* Handle */
+-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+}
+
+
+/* ---------------------------------------------- /*
+ * Winners
+/* ---------------------------------------------- */
+
+#winners {
+    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url('../images/VWC%20background%20190x1080_upd.html');
+    background-color: rgba(0, 0, 0, 0.01);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    min-height: 1300px;
+}
+
+.panel-winners {
+    margin-top: 10%;
+}
+
+.winners-top {
+    margin-bottom: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 0;
+    background-color: rgba(26, 26, 26, 0.8);
+    margin-top: 5%;
+    color: white;
+}
+
+.panel-primary {
+    border-color: rgb(97, 35, 110);
+}
+
+.panel-primary > .panel-heading {
+    background-color: rgb(97, 35, 110);
+    border: none;
+}
+
+.panel-title.winner-date {
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+.panel-body.winner-text {
+    color: #000;
+    font-size: 1.1em;
+    padding: 10px;
+}
+
+.winners-disclaimer {
+    margin-top: 15vh;
+}
+
+.winners_list {
+    text-align: center;
+    color: black;
+    list-style: none;
+    float: right;
+}
+
+.winners_header{
+    font-family: 'Cairo', sans-serif;
+    text-align: center;
+    color: rgb(97, 35, 110);
+    font-size: 26px;
+}
+
+
+.table-winners th,
+.table-winners td {
+    text-align: center;
+    width: 25%;
+    color: #666666;
+    font: 18px/1.5 'CorpidRegular', sans-serif;
+}
+
+
+.table-winners th {
+    border-top: 0 !important;
+    color:#87497A !important;
+    font: 24px/1.5 'CorpidBold', sans-serif;
+}
+
+
+
+/*--------------------------------------------- /*
+*               Draws Countdown
+ /*------------------------------------------- */
+
+#countdown{
+    /* background-color: white;*/
+    width: 100%;
+}
+
+#clock span{
+    /* float: left;*/
+    text-align: center;
+    font-size: 20px;
+    margin: 0 2.5%;
+    color: white;
+}
+
+
+
+
+/* ---------------------------------------------- /*
+ * Terms
+/* ---------------------------------------------- */
+
+#terms {
+    background: linear-gradient(rgba(0, 0, 0, 0.01), rgba(0, 0, 0, 0.01)), url('../images/VWC%20background%20190x1080_upd.html');
+    background-color: rgba(0, 0, 0, 0.01);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 0;
+    min-height: 900px;
+}
+
+.panel-terms {
+    margin: 2% auto 0;
+    padding: 50px;
+    width: 80%;
+    height: 650px;
+    overflow: scroll !important;
+    -webkit-overflow-scrolling: touch !important;
+    background-color: #fff;
+    font-size: 1em;
+    text-align: justify;
+}
+
+.panel-faq .iconbox-inner {
+    padding: 20px 20px;
+    height: 70vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#terms h3 {
+    color: hsla(320, 36%, 47%, 1);
+    font-weight: bold;
+    font-size:large;
+}
+
+#terms p{
+    color: black;
+    margin-right: 17px;
+}
+
+
+/* ---------------------------------------------- /*
+* Footer
+/* ---------------------------------------------- */
+
+#footer {
+    background: #000;
+    padding: 20px 0;
+    color: #FFF;
+}
+
+.created-by {
+    font-size: 0.9em;
+    margin: 0 5px;
+}
+
+/* ---------------------------------------------- /*
+ * Navigation
+/* ---------------------------------------------- */
+
+.header {
+    position: relative;
+    width: 100%;
+    z-index: 998;
+    background-color: transparent;
+}
+
+
+.navbar-header{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+
+#nav-container {
+    width: 100%;
+    display: inline-block;
+    background-color:  hsla(320, 36%, 47%, 1);
+    color: #FFFFFF;
+    font-size: 10px;
+}
+
+.navbar-custom {
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.1);
+    /*text-transform: uppercase;*/
+    font-family: "Arial", sans-serif;
+}
+
+.navbar-custom .dropdown-menu {
+    /*background-color: rgb(97, 35, 110);*/
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-nav > li > a,
+.navbar-custom .navbar-nav .dropdown-menu > li > a {
+
+    font-size: 1.2em;
+  /*  letter-spacing: 2px;*/
+    color: white;
+}
+
+.navbar-custom .nav li.active,
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.navbar-custom .navbar-nav > li.active a {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: transparent;
+    color: #000;
+}
+
+.navbar-custom .navbar-brand {
+    /*	font-weight: 700;
+        font-size: 22px;
+      font-family: Lobster, cursive;*/
+}
+
+.navbar-brand img {
+    position: absolute;
+    top: 0;
+    margin-top: 5px;
+    margin-left: 30px;
+    height: 45px;
+}
+
+.navbar-custom .dropdown-menu {
+    border: 0;
+    border-top: 2px solid #f01c59;
+    border-radius: 0;
+}
+
+.navbar-custom .dropdown-menu > li > a {
+    padding: 10px 20px;
+}
+
+.navbar-custom .nav .open > a,
+.navbar-custom .dropdown-menu > li > a:hover,
+.navbar-custom .dropdown-menu > li > a:focus {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+    background: white;
+}
+
+
+/* ---------------------------------------------- /*
+ * Scroll to top
+/* ---------------------------------------------- */
+
+.scroll-up {
+    position: fixed;
+    display: none;
+    z-index: 999;
+    bottom: 2em;
+    right: 2em;
+}
+
+.scroll-up a {
+    background-color: rgba(135, 135, 135, 0.5);
+    display: block;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.scroll-up a:hover,
+.scroll-up a:active {
+    background-color: transparent;
+    color: #f01c59;
+}
+
+/* ---------------------------------------------- /*
+ *Scroll Down
+/* ---------------------------------------------- */
+
+.scroll-down {
+    position: relative;
+    left: 50%;
+    bottom: 10px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: -15px;
+    display: block;
+    z-index: 10;
+    text-align: center;
+}
+
+.scroll-down span {
+    position: relative;
+    color: #fff;
+    -webkit-animation-name: drop;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 0s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    animation-name: drop;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+@-webkit-keyframes drop {
+    0% {
+        top: 0px;
+        opacity: 0;
+    }
+    30% {
+        top: 10px;
+        opacity: 1;
+    }
+    100% {
+        top: 25px;
+        opacity: 0;
+    }
+}
+
+@keyframes drop {
+    0% {
+        top: 0px;
+        opacity: 0;
+    }
+    30% {
+        top: 10px;
+        opacity: 1;
+    }
+    100% {
+        top: 25px;
+        opacity: 0;
+    }
+}
+
+/* ---------------------------------------------- /*
+ * Preloader
+/* ---------------------------------------------- */
+
+#preloader {
+    background: #FFF;
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9999;
+}
+
+#status {
+    background-image: url(../images/preloader.html);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+    left: 50%;
+    margin: -100px 0 0 -100px;
+    position: absolute;
+    top: 50%;
+    width: 200px;
+}
+
+
+.modal_vsc {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* ---------------------------------------------- /*
+ * Media
+/* ---------------------------------------------- */
+
+
+/* Very large Devices, Wide Screens */
+@media only screen and (min-width: 1500px) {
+
+
+    .intro .description-text {
+        font-size: 2em;
+    }
+
+    .intro .cta-text {
+        font-size: 2.5em;
+    }
+
+    /*  .fixed-height {
+          max-height: 620px;
+      }*/
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+
+
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-nav > li > a,
+    .navbar-custom .navbar-nav .dropdown-menu > li > a {
+        font-size: 11px;
+    }
+
+    .ribbon {
+        font-size: 1.1em;
+    }
+
+    /* Home */
+    .intro .description-text {
+        font-size: 1.7em;
+    }
+
+    .intro .cta-text {
+        font-size: 1.8em;
+    }
+
+    /* How to Play */
+    .tips {
+        min-height: 0;
+    }
+
+    .step-text,
+    .tips p {
+        font-size: 0.9em;
+        text-align: justify;
+    }
+
+    .step-text {
+        padding: 5px;
+    }
+
+    .huge-number {
+        padding: 0 5px;
+        font-size: 7em;
+    }
+
+
+    /* Prizes */
+    p.prizes-header {
+        font-size: 0.9em;
+        padding: 0;
+    }
+
+    /*.img-smart,
+    .img-cash {
+        max-width: 70%;
+        margin-bottom: 10px;
+    }*/
+    p.prizes-item {
+        font-size: 1.4em;
+        margin-top: 10px;
+    }
+
+    .prizes-top {
+        padding: 10px;
+    }
+
+    .panel-winners {
+        margin-top: 5%;
+    }
+
+    .btn_join {
+        font-size: 15px;
+    }
+
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+
+
+
+    .contact_footer_img img{
+        width: 25%;
+    }
+
+    .contact_footer_logo img{
+        width: 25%;
+    }
+
+    .signup_right_half{
+        margin-top: 10px;
+    }
+
+    .contact_div_signup {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .homepage_top img.main_prizes{
+        width: 95%;
+        display: block;
+        margin: auto;
+        max-width: 500px;
+    }
+
+    .homepage_top img.main_logo{
+        width: 85%;
+        display: block;
+        margin: auto;
+        padding: 5%;
+        max-width: 400px;
+    }
+
+    .homepage_top img {
+        margin-top: unset !important;
+    }
+
+    .msisdn_tab{
+        font-size: 12px ;
+    }
+
+    .header-logo{
+        display: none;
+    }
+
+
+    .faq_guestion_header{
+        font-size: 10px;
+    }
+/*    .mobile_navbar{
+        display: none !important;
+    }*/
+
+    /* Nav collapse breakpoint */
+    .navbar-header {
+        float: none;
+    }
+
+    .navbar-left,
+    .navbar-right {
+        float: none !important;
+    }
+
+    .navbar-toggle {
+        display: block;
+        margin-left: 20px;
+    }
+
+    .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+    }
+
+    .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+    }
+
+    .navbar-collapse.collapse {
+        display: none !important;
+        overflow-y: auto !important;
+        background-color:  hsla(320, 36%, 47%, 1);
+    }
+
+    .navbar-nav {
+        float: none !important;
+        margin-top: 7.5px;
+        background-color:  hsla(320, 36%, 47%, 1);
+    }
+
+
+    .separetor {
+        height: 5px;
+        width: 90%;
+        border-bottom: 1px solid white;
+        border-right: 0;
+    }
+
+    .navbar-nav > li {
+        float: none;
+    }
+
+    .navbar-nav > li > a {
+       /* padding-top: 10px;
+        padding-bottom: 10px;*/
+
+    }
+
+    .navbar-collapse.collapsing{
+        margin-left:0px;
+    }
+
+    .navbar-collapse{
+        display: block !important;
+        width: 100%;
+        background-color: rgb(163, 77, 134);
+        color: white;
+        margin-left:0px;
+    }
+
+    .collapse.in {
+        display: block !important;
+        width: 100%;
+       /* background-color: rgb(163, 77, 134);
+        color: white;*/
+        margin-left: 0px;
+    }
+
+
+    .navbar-custom .navbar-brand,
+    .navbar-custom .navbar-nav > li > a,
+    .navbar-custom .navbar-nav .dropdown-menu > li > a {
+        background-color:  hsla(320, 36%, 47%, 1);
+        font-size: 12px;
+       /* letter-spacing: 1px;*/
+        margin-left: 10px;
+    }
+
+    .intro {
+        top: 5%;
+    }
+
+    .intro .description-text {
+        font-size: 1.6em;
+    }
+
+    .intro .cta-text {
+        font-size: 1.9em;
+    }
+
+    .panel-game,
+    .panel-how-to-play,
+    .panel-prizes,
+    .panel-faq,
+    .panel-winners,
+    .panel-terms {
+        margin-top: 5%;
+    }
+
+
+    /* Home */
+    .description-text {
+        font-size: 1.2em;
+    }
+
+    .logo-home img {
+        max-height: 100px;
+    }
+
+
+    /* Game */
+    .game-text {
+        font-size: 0.9em;
+    }
+
+    .disclaimer {
+        font-size: 0.8em;
+    }
+
+
+    /* How to Play */
+    .steps,
+    .tips {
+        padding: 10px 30px;
+    }
+
+    .step-text,
+    .tips p {
+        font-size: 0.9em;
+        text-align: justify;
+    }
+
+    .step-text {
+        padding-bottom: 5px;
+    }
+
+    /*.step-text::before {
+    content: "• ";
+    }*/
+    .huge-number {
+        /*display: none;*/
+        font-size: 3em;
+    }
+
+    .tips p {
+        margin: 8% 0;
+    }
+
+    /* Prizes */
+    .row-prizes {
+        /*left: 0; */
+        margin-top: 10px;
+    }
+
+    p.prizes-header {
+        /*font-size: 1em;*/
+        padding: 0;
+        text-align: center;
+        font-size: 1em;
+    }
+
+    p.prizes-item {
+        font-size: 1.3em;
+    }
+
+    .prizes-top {
+        padding: 10px;
+    }
+
+    .prizes-bottom-text {
+        font-size: 1em;
+    }
+
+    /* FAQ */
+    .panel-faq .panel-title {
+        font-size: 1em;
+    }
+
+    .accordion-text {
+        font-size: 0.9em;
+    }
+
+    /* Winners */
+    .panel-title.winner-date {
+        font-size: 0.9em;
+    }
+
+    .panel-body.winner-text {
+        font-size: 0.9em;
+    }
+
+    .winners_list {
+        float: none !important;
+    }
+
+    .sendmsg {
+        margin-left: 0% !important;
+    }
+
+    .btn_join {
+        font-size: 20px;
+    }
+
+    .homepage-text {
+        font-size: 24px;
+        line-height: 95%;
+    }
+
+    .inner-prizes{
+        width: 80%;
+    }
+
+    .homepage_top_left_div{
+        display: none;
+    }
+
+    .homepage_top_left_div_alt{
+        display: initial;
+    }
+
+    .homepage_top_right_div{
+        display: none;
+    }
+
+
+    .signup_page{
+        height: 800px;
+    }
+
+
+    .contact_div {
+        bottom: 30px;
+        width: 100%;
+        bottom: 0px;
+        position: fixed;
+    }
+}
+
+/*@media only screen and (max-height: 760px){
+    .modal-backdrop{
+        display: none !important;
+    }
+    .modal-header{
+        display: none !important;
+    }
+    .modal-content{
+        display: none !important;
+    }
+}*/
+
+
+/* Desktops, low rest */
+@media only screen and (max-height: 750px) and (min-width: 1300px) {
+
+    /* Home */
+    .logo-home img {
+        max-width: 150px;
+    }
+
+    .intro .description-text {
+        font-size: 1.4em;
+    }
+
+    .intro .cta-text {
+        font-size: 1.6em;
+    }
+
+    /* How to Play */
+    .step-text,
+    .tips p {
+        font-size: 1em;
+    }
+
+    .fixed-height {
+        height: 85vh !important;
+    }
+
+}
+
+
+/* Desktops, low rest */
+@media only screen and (max-height: 800px) and (max-width: 1000px) {
+
+    .intro .description-text {
+        font-size: 1.6em;
+    }
+
+    .intro .cta-text {
+        font-size: 1.7em;
+    }
+
+    .fixed-height {
+        height: 30%;
+    }
+
+}
+
+
+/* Low height */
+@media only screen and (max-height: 900px) and (min-width: 1000px) {
+
+    .ribbon {
+        margin-top: 10vh;
+    }
+
+    /* Home */
+    .intro {
+        top: 5%;
+    }
+
+    .intro .description {
+        margin: 10px 0;
+    }
+
+
+    /* Game */
+    .game-text {
+        font-size: 1.3em;
+    }
+
+    .disclaimer-bottom {
+        margin-top: 0;
+    }
+
+    /* How To */
+    /*.step-text,
+    .tips p {
+        font-size: 0.8em;
+    }*/
+    /*.huge-number {
+        font-size: 4em;
+        line-height: 90px;
+    }*/
+    /*.tips {
+        min-height: 1px;
+    }*/
+    .fixed-height {
+        height: 75vh;
+    }
+
+
+    /* Winners */
+    .winners-disclaimer {
+        margin-top: 15vh;
+    }
+
+}
+
+
+/*iPad in portrait & landscape*/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+
+    #game,
+    #how-to-play,
+    #prizes,
+    #faq,
+    #winners,
+    #terms {
+        background-attachment: scroll;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+    .homepage-text {
+        font-size: 20px;
+        line-height: 95%;
+        margin-top: 10px;
+    }
+
+    .prizes-image {
+        width: 30%;
+    }
+
+    .signup_page{
+        height: 600px;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+
+    .intro .description {
+        margin-top: 10px;
+    }
+
+    .intro .description-text {
+        font-size: 1em;
+    }
+
+    .intro .cta {
+        margin-top: 0px;
+    }
+
+    .intro .cta-text {
+        font-size: 1.2em;
+    }
+
+    .modal-body p {
+        font-size: 1.2em;
+    }
+
+    .scroll-down {
+        bottom: 10px;
+    }
+
+    .ribbon {
+        margin-top: 12vh;
+        font-size: 0.8em;
+    }
+
+    #game,
+    #how-to-play,
+    #faq,
+    #winners,
+    #terms {
+        background-attachment: scroll;
+    }
+
+
+    /* Game */
+    .game-description {
+        padding: 20px 10px;
+    }
+
+    .game-text {
+        font-size: 0.8em;
+        color: #000;
+    }
+
+    .prize-announcement {
+        font-size: 1.5em;
+    }
+
+    .disclaimer-bottom {
+        font-size: 0.5em;
+        color: #000;
+    }
+
+    /* How to Play */
+    .steps,
+    .tips {
+        padding: 10px 20px;
+    }
+
+    .step-text,
+    .tips p {
+        font-size: 0.8em;
+        text-align: justify;
+    }
+
+    .fixed-height {
+        height: 30%;
+    }
+
+    /* Winners */
+    .panel-body.winner-text {
+        font-size: 0.7em;
+    }
+
+    .winners-disclaimer {
+        margin-top: 15vh;
+    }
+
+    /* Terms */
+    .panel-terms {
+        width: 90%;
+        padding: 20px;
+        font-size: 0.8em !important;
+    }
+
+    .container{
+        overflow-y: auto;
+    }
+
+
+}
+
+/*iPad in portrait & landscape*/
+@media only screen and (min-device-width: 768px) and (orientation: portrait) {
+
+    .intro .description-text {
+        font-size: 1.5em;
+    }
+
+    .intro .cta-text {
+        font-size: 1.8em;
+    }
+
+    .ribbon {
+        margin-top: 8vh;
+        font-size: 1em;
+    }
+
+    .huge-number {
+        font-size: 6em;
+    }
+
+    .game-text,
+    .step-text,
+    .tips p {
+        font-size: 1em;
+    }
+
+    .tips {
+        margin-top: -5%;
+    }
+
+    .prize-announcement {
+        font-size: 1.8em;
+    }
+
+    .disclaimer-bottom {
+        font-size: 0.8em;
+    }
+
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-height: 400px) and (orientation: landscape) {
+
+    /* Home */
+    .logo-home img {
+        max-width: 100px;
+    }
+
+    .intro .description-text {
+        font-size: 1em;
+        margin-top: 0;
+    }
+
+    .intro .cta-text {
+        font-size: 1em;
+    }
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width: 320px) {
+
+    /* Home */
+    .logo-home img {
+        max-width: 100px;
+    }
+
+    .intro .description {
+        margin-top: 0 !important;
+    }
+
+    .intro .description-text {
+        font-size: 1em;
+        margin-top: 15px;
+    }
+
+    .intro .cta-text {
+        font-size: 1em;
+    }
+
+    .intro .cta-disclaimer {
+        font-size: 0.6em;
+    }
+
+    /* How to Play */
+    .col-xs-5.ribbon {
+        width: 50% !important;
+    }
+
+    .step {
+        margin-bottom: 10px !important;
+    }
+
+    .huge-number {
+        font-size: 6em;
+    }
+
+    .step-text,
+    .tips p {
+        font-size: 0.8em !important;
+    }
+
+    /* Winners */
+    .panel-body.winner-text {
+        font-size: 0.6em;
+    }
+
+    .step-text,
+    .tips p {
+        font-size: 0.6em;
+    }
+
+    .draw_info{
+        font-size: 12px;
+    }
+
+}
+
+
+/* Carousel */
+@media only screen and (min-width: 480px) {
+    .carousel-mobile {
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 479px) {
+    .carousel-desktop {
+        display: none;
+    }
+
+    .carousel-caption {
+        font: 18px/1.5 'CorpidBold', sans-serif;
+        margin-bottom: 0;
+    }
+}
+
